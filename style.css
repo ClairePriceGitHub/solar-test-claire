@@ -1,0 +1,164 @@
+/* General */
+:root {
+    --color-primary: #FFCC00;
+    --color-secondary: #D9D1C7;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .align-items-c {
+    display: flex;
+    align-items: center;
+  }
+
+  .align-items-c-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-align-r {
+    text-align: right;
+  }
+
+  .text-align-l {
+    text-align: left;
+  }
+
+  .text-align-c {
+    text-align: center;
+  }
+
+  /* Text */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+      font-size: 40px;
+    }
+  h3 {
+      font-size: 28px;
+  }
+  h4 {
+      font-size: 24px;
+  }
+  h5 {
+      font-size: 20px;
+  }
+  h6 {
+      font-size: 18px;
+  }
+  p {
+      font-size: 16px;
+  }
+
+  /* Refactored */
+  .results-found h5,
+  .results-found h6,
+  .results-found img,
+  .info h3 {
+    padding: 12px 0px;
+  }
+
+  /* Results-Found Section */
+  .results-found {
+    background-color: var(--color-secondary);
+    height: 80vh;
+  }
+
+  .results-container {
+    width: 500px;
+  }
+
+  .results-found img {
+    height: 100px;
+  }
+
+  /* Results-Not-Found Section */
+  .results-n-found {
+    background-color: var(--color-secondary);
+    height: 40vh;
+    outline: dashed; /* to be removed */
+  }
+
+  .results-n-found img {
+    height: 80px;
+  }
+
+  /* Info Section */
+  .info img {
+    width: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-bottom: 12px;
+  }
+
+  .info h4 {
+    margin: 10px;
+  }
+
+  .card {
+    border: none;
+  }
+
+  .info-card {
+    display: flex;
+    align-self: center;
+    height: 80vh;
+    padding-top: 40px;
+  }
+
+  .info .text-container {
+    padding-top: 20px;
+  }
+
+  /* Search Section */
+  .search {
+    background-color: var(--color-primary);
+  }
+
+  .search-header {
+    position: absolute;
+  }
+
+  .search-input {
+    position: relative;
+    height: 60vh;
+  }
+
+  .search-button {
+    display: inline;
+  }
+
+  /* Socials Section */
+  .social {
+    background-color: var(--color-secondary);
+  }
+
+  .social-header {
+    position: absolute;
+  }
+
+  .social-icons {
+    position: relative;
+    height: 35vh; 
+  }
+
+  .social-icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
