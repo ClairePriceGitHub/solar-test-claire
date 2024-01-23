@@ -16,12 +16,20 @@
     border-bottom-left-radius: 0em;
   }
 
+  .search-button-primary:hover {
+    color: #6c757d;
+  }
+
   .search-button-secondary {
     background-color: var(--color-secondary);
     border-color: var(--color-secondary);
     color: var(--color-secondary);
     border-top-left-radius: 0em;
     border-bottom-left-radius: 0em;
+  }
+
+  .search-button-secondary:hover {
+    color: #6c757d;
   }
 
   /* Text */
